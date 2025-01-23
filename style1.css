@@ -1,0 +1,142 @@
+* {  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    grid-template-rows: auto 1fr auto;
+    margin: 0;  
+    padding: 0; 
+    background: url('1.jpg') no-repeat center center fixed; 
+    background-size: cover;  
+}  
+
+header {  
+    background-color: red;  
+    color: white;  
+    padding: 20px;  
+    text-align: center;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+#hero {   
+    background-size: cover;  
+    color: white;  
+    padding: 10px 5px;  
+    text-align: center;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}  
+
+.hero h2 {  
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}  
+
+.hero p {  
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}  
+
+.container {
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(70, 70, 70, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+section {  
+    padding: 10px;  
+    margin: 10px;  
+}  
+
+.service {  
+    border: 1px solid #ccc;  
+    color: white;
+    margin: 10px 0;  
+    padding: 10px;  
+    transition: transform 0.3s;  
+    width: 80%; 
+    max-width: 500px; 
+    margin: 10px auto; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+} 
+
+
+.btn {  
+    display: inline-block;   
+    padding: 10px 20px;  
+    margin-top: 10px;   
+    color: white;  
+    background-color: #303030; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.3s;  
+}  
+
+.btn:hover {   
+    transform: scale(1.05); 
+}  
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.service-image {  
+    width: 400px;   
+    height: auto;  
+    border-radius: 5px;   
+    margin-top: 10px 0; 
+}  
+
+#service {  
+    text-align: center; 
+    padding: 20px;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}  
+
+#service h3 {  
+    color: white; 
+    font-size: 2em; 
+}  
+
+.service:hover {  
+    transform: scale(1.05);  
+}  
+
+footer {
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    text-align: center;
+    padding: 10px;
+    background: red;
+    color: #fff;
+    z-index: 10; 
+} 
+.wrapper {  
+    flex: 1; 
+}  
